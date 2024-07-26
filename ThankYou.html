@@ -31,19 +31,19 @@
             </dl>
             <dl class="sm:flex items-center justify-between gap-4">
                 <dt class="font-normal mb-1 sm:mb-0 text-gray-500">Payment Method</dt>
-                <dd class="font-medium text-gray-900 sm:text-end">JPMorgan monthly installments</dd>
+                <dd id="payment" class="font-medium text-gray-900 sm:text-end">JPMorgan monthly installments</dd>
             </dl>
             <dl class="sm:flex items-center justify-between gap-4">
                 <dt class="font-normal mb-1 sm:mb-0 text-gray-500">Name</dt>
-                <dd class="font-medium text-gray-900 sm:text-end">Flowbite Studios LLC</dd>
+                <dd id="name" class="font-medium text-gray-900 sm:text-end">Flowbite Studios LLC</dd>
             </dl>
             <dl class="sm:flex items-center justify-between gap-4">
                 <dt class="font-normal mb-1 sm:mb-0 text-gray-500">Address</dt>
-                <dd class="font-medium text-gray-900 sm:text-end">34 Scott Street, San Francisco, California, USA</dd>
+                <dd id="fullAddress" class="font-medium text-gray-900 sm:text-end">34 Scott Street, San Francisco, California, USA</dd>
             </dl>
             <dl class="sm:flex items-center justify-between gap-4">
                 <dt class="font-normal mb-1 sm:mb-0 text-gray-500">Phone</dt>
-                <dd class="font-medium text-gray-900 sm:text-end">+(123) 456 7890</dd>
+                <dd id="phone" class="font-medium text-gray-900 sm:text-end">+(123) 456 7890</dd>
             </dl>
         </div>
         <div class="flex items-center space-x-4">
@@ -71,9 +71,18 @@
     
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-        localStorage.removeItem('ShoppingBag');
-        updateCartPage();
-    });
+            localStorage.removeItem('ShoppingBag');
+            updateCartPage();
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById("payment").innerHTML = localStorage.getItem("payment");
+            document.getElementById("name").innerHTML = localStorage.getItem("fullname");
+            document.getElementById("fullAddress").innerHTML = localStorage.getItem("fullAddress");
+            document.getElementById("phone").innerHTML = localStorage.getItem("phone");
+        });
     </script>
 
 
