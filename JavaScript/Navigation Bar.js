@@ -163,19 +163,19 @@ document.addEventListener("DOMContentLoaded", function() {
              <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
                <ul class="flex flex-col font-medium p-4 mt-4 border border-zinc-700 rounded-lg bg-zinc-950 sm:bg-transparent md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:p-0">
                  <li class="group relative">
-                   <a href="/index.html" class="block my-1 py-2 pr-4 pl-3 text-stone-50 border-b border-zinc-700 rounded-md hover:bg-zinc-800 lg:hover:bg-transparent lg:border-0 lg:hover:text-stone-300 lg:p-0 md:border-0 md:hover:text-stone-300">Home</a>
+                   <a href="index.html" class="block my-1 py-2 pr-4 pl-3 text-stone-50 border-b border-zinc-700 rounded-md hover:bg-zinc-800 lg:hover:bg-transparent lg:border-0 lg:hover:text-stone-300 lg:p-0 md:border-0 md:hover:text-stone-300">Home</a>
                    <span class="absolute bottom-0 right-0 w-0 h-1 bg-red-600 rounded transition-all duration-500 group-hover:w-full group-hover:left-0"></span>
                  </li>
                  <li class="group relative">
-                   <a href="/Catalog.html" class="block my-1 py-2 pr-4 pl-3 text-stone-50 border-b border-zinc-700 rounded-md hover:bg-zinc-800 lg:hover:bg-transparent lg:border-0 lg:hover:text-stone-300 lg:p-0 md:border-0 md:hover:text-stone-300">Catalog</a>
+                   <a href="Catalog.html" class="block my-1 py-2 pr-4 pl-3 text-stone-50 border-b border-zinc-700 rounded-md hover:bg-zinc-800 lg:hover:bg-transparent lg:border-0 lg:hover:text-stone-300 lg:p-0 md:border-0 md:hover:text-stone-300">Catalog</a>
                    <span class="absolute bottom-0 right-0 w-0 h-1 bg-red-600 rounded transition-all duration-500 group-hover:w-full group-hover:left-0"></span>
                  </li>
                  <li class="group relative">
-                   <a href="/About.html" class="block my-1 py-2 pr-4 pl-3 text-stone-50 border-b border-zinc-700 rounded-md hover:bg-zinc-800 lg:hover:bg-transparent lg:border-0 lg:hover:text-stone-300 lg:p-0 md:border-0 md:hover:text-stone-300">About</a>
+                   <a href="About.html" class="block my-1 py-2 pr-4 pl-3 text-stone-50 border-b border-zinc-700 rounded-md hover:bg-zinc-800 lg:hover:bg-transparent lg:border-0 lg:hover:text-stone-300 lg:p-0 md:border-0 md:hover:text-stone-300">About</a>
                    <span class="absolute bottom-0 right-0 w-0 h-1 bg-red-600 rounded transition-all duration-500 group-hover:w-full group-hover:left-0"></span>
                  </li>
                  <li class="group relative">
-                   <a href="/ContactUs.html" class="block my-1 py-2 pr-4 pl-3 text-stone-50 border-b border-zinc-700 rounded-md hover:bg-zinc-800 lg:hover:bg-transparent lg:border-0 lg:hover:text-stone-300 lg:p-0 md:border-0 md:hover:text-stone-300">Contact Us</a>
+                   <a href="ContactUs.html" class="block my-1 py-2 pr-4 pl-3 text-stone-50 border-b border-zinc-700 rounded-md hover:bg-zinc-800 lg:hover:bg-transparent lg:border-0 lg:hover:text-stone-300 lg:p-0 md:border-0 md:hover:text-stone-300">Contact Us</a>
                    <span class="absolute bottom-0 right-0 w-0 h-1 bg-red-600 rounded transition-all duration-500 group-hover:w-full group-hover:left-0"></span>
                  </li>        
                </ul>
